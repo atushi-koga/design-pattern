@@ -1,0 +1,24 @@
+@startuml
+hide circle
+
+class Context {
+  strategy: Strategy
+  action()
+}
+object Strategy
+Strategy : execute()
+
+object ConcreteStrategyA
+ConcreteStrategyA : execute()
+object ConcreteStrategyB
+ConcreteStrategyB : execute()
+object ConcreteStrategyC
+ConcreteStrategyC : execute()
+
+Context o--> Strategy
+
+ConcreteStrategyA --|> Strategy
+ConcreteStrategyB --|> Strategy
+ConcreteStrategyC --|> Strategy
+
+@enduml
