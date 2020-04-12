@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+hide circle
+
+object Invoker
+object Command
+Command : execute()
+object Client
+object Receiver
+Receiver : action()
+class ConcreteCommand {
+  {field} receiver
+  {method} execute()
+}
+
+Invoker o--> Command
+ConcreteCommand --|> Command
+ConcreteCommand --> Receiver
+Client --> Receiver
+Client --> ConcreteCommand : creates >
+
+@enduml
