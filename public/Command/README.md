@@ -3,4 +3,4 @@
 異なる種類の要求に対する所理を同じAPIを持つクラスとして実装し、
 その結果、処理クラスのインスタンスを切り替えるだけで様々な要求に対する処理を実行できるようになる。
 
-![command_uml](https://user-images.githubusercontent.com/20272076/79065306-4cbf0500-7cea-11ea-97e2-e913bce8d516.png)
+![command_uml](https://user-images.githubusercontent.com/20272076/79092857-2f8f4280-7d8d-11ea-8a78-8cfdbea9aff2.png)

@@ -15,8 +15,7 @@ class ConcreteCommand {
 
 Invoker o--> Command
 ConcreteCommand --|> Command
-ConcreteCommand --> Receiver
-Client --> Receiver
+ConcreteCommand o--> Receiver
 Client --> ConcreteCommand : creates >
 
 @enduml
