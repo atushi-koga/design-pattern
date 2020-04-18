@@ -1,0 +1,20 @@
+@startuml
+hide circle
+
+object Client {
+}
+object Director {
+}
+object Builder {
+}
+object ConcreteBuilder1 {
+}
+object ConcreteBuilder2 {
+}
+
+Client -right-> Director
+Director o-right-> Builder
+ConcreteBuilder1 -up-|> Builder
+ConcreteBuilder2 -up-|> Builder
+
+@enduml
