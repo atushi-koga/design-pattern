@@ -20,6 +20,5 @@ class ListTray extends Tray
   <ul>{$itemHTML}</ul>
 </div>
 EOL;
-
     }
 }

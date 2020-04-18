@@ -22,6 +22,5 @@ class ListPage extends Page
 <body>{$contentHTML}</body>
 </html>
 EOL;
-
     }
 }

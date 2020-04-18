@@ -12,16 +12,16 @@ class TableFactory extends Factory
 {
     public function createLink(string $caption, string $url): Link
     {
-        // TODO: Implement createLink() method.
+        return new TableLink($caption, $url);
     }
 
     public function createTray(string $caption): Tray
     {
-        // TODO: Implement createTray() method.
+        return new TableTray($caption);
     }
 
     public function createPage(string $title, string $author): Page
     {
-        // TODO: Implement createPage() method.
+        return new TablePage($title, $author);
     }
 }
