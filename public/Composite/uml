@@ -1,0 +1,18 @@
+@startuml
+hide circle
+
+object Client {
+}
+object Component {
+}
+object Leaf {
+}
+object Composite {
+}
+
+Client -right-> Component
+Leaf -up-|> Component
+Composite -up-|> Component
+Composite o--> Component
+
+@enduml
