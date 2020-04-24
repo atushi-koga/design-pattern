@@ -1,0 +1,16 @@
+@startuml
+hide circle
+
+class AbstractClass {
+  TemplateMethod()
+  PrimitiveOperation1()
+  PrimitiveOperation2()
+}
+class ConcreteClass {
+  PrimitiveOperation1()
+  PrimitiveOperation2()
+}
+
+ConcreteClass -up-|> AbstractClass
+
+@enduml
