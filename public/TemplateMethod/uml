@@ -11,6 +11,6 @@ class ConcreteClass {
   PrimitiveOperation2()
 }
 
-ConcreteClass -up-|> AbstractClass
+ConcreteClass -up-|> AbstractClass : extends
 
 @enduml

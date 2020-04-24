@@ -1,9 +1,10 @@
 ## Template Methodパターン
 `1つのオペレーションにアルゴリズムのスケルトンを定義しておき、その中のいくつかのステップについては、サブクラスでの定義に任せることにする。
 Template Methodパターンでは、アルゴリズムの構造を変えずに、アルゴリズムの中のあるステップをサブクラスで定義する。`
+
 一見すると普通の継承と変わらないが、「処理の一部分をサブクラスで実装する」というのがポイント。
 
-![template_method](https://user-images.githubusercontent.com/20272076/80162240-c2da3a80-860d-11ea-89bb-3095443ccf82.png)
+![template_method](https://user-images.githubusercontent.com/20272076/80163482-49444b80-8611-11ea-81ed-cb6f476d4ec0.png)
 
 ### 関連するパターン
 - Strategyパターン
