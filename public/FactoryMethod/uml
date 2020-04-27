@@ -6,7 +6,6 @@ class Creator {
   factoryMethod()
 }
 class ConcreteCreator {
-  create()
   factoryMethod()
 }
 class Product {

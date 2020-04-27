@@ -8,7 +8,7 @@ Factoryで生成されるオブジェクトはどのように実装されてい�
 この同様の機能を実現するためにインターフェースを定義し、Factoryで生成されるクラスが実装している。
 Factory Methodパターンを利用することで、オブジェクトの利用側はどのインスタンスが生成されるのかを知る必要がなくなる。
 
-![factory_method](https://user-images.githubusercontent.com/20272076/80324648-d6371100-886c-11ea-8960-92af88b16ff5.png)
+![factory_method](https://user-images.githubusercontent.com/20272076/80434003-87a07a00-8933-11ea-8727-ed3af89f9c28.png)
 
 
 ## メリット
