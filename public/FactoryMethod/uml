@@ -1,0 +1,25 @@
+@startuml
+hide circle
+
+class Creator {
+  create()
+  factoryMethod()
+}
+class ConcreteCreator {
+  create()
+  factoryMethod()
+}
+class Product {
+  method1()
+  method2()
+}
+class ConcreteProduct {
+  method1()
+  method2()
+}
+
+ConcreteCreator  -up-|> Creator
+Creator -right-> Product :create
+ConcreteProduct -up-|> Product
+ConcreteCreator  -right-> ConcreteProduct :create
+@enduml
