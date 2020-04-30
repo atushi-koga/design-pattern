@@ -1,0 +1,25 @@
+@startuml
+hide circle
+
+class Iterator {
+  {method} hasNext()
+  {method} next()
+}
+class ConcreteIterator {
+  {field} aggregate
+  {method} hasNext()
+  {method} next()
+}
+class Aggregate {
+  {method} iterator()
+}
+class ConcreteAggregate {
+  {method} iterator()
+}
+
+ConcreteIterator  -up-|> Iterator
+ConcreteAggregate -up-|> Aggregate
+ConcreteIterator o-left-> ConcreteAggregate
+Aggregate -right-> Iterator : create
+
+@enduml
