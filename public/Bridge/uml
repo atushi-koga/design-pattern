@@ -1,0 +1,31 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+object Client {
+}
+class Abstraction {
+  {field} - implementor
+  {method} + operation()
+}
+class RefinedAbstraction {
+  {method} + anotherOperation()
+}
+class Implementor {
+  {method} + operationImp()
+}
+class ConcreteImplementor {
+  {method} + operationImp()
+}
+
+Client -right-> Abstraction
+
+RefinedAbstraction -up-|> Abstraction
+ConcreteImplementor -up-|> Implementor
+Abstraction o-right-> Implementor
+
+note top of [Abstraction]
+ operation():  implementor->operationImp()
+end note
+
+@enduml
