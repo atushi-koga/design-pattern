@@ -1,0 +1,25 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+object Client {
+}
+class Target {
+  {method} + request()
+}
+class Adapter {
+  {field} - adaptee
+  {method} + request()
+}
+class Adaptee {
+  {method} + specifyRequest()
+}
+
+Client -right-> Target
+Adapter -up-|> Target
+Adapter o-right-> Adaptee
+
+note bottom of [Adapter]
+  adaptee->specifyRequest()
+end note
+@enduml
