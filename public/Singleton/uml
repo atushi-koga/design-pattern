@@ -1,0 +1,11 @@
+@startuml
+hide circle
+skinparam classAttributeIconSize 0
+
+class Singleton {
+  {field} - singleton : Singleton
+  {method} - __construct()
+  {method}{static} + getInstance() : Singleton
+}
+
+@enduml
