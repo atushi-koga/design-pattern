@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Bridge;
+namespace Test\Bridge;
 
 use App\Bridge\Display\CountDisplay;
 use App\Bridge\Display\Display;

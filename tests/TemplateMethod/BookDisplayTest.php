@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\TemplateMethod;
+namespace Test\TemplateMethod;
 
 use App\TemplateMethod\BookList\BookListDisplay;
 use App\TemplateMethod\BookList\BookTableDisplay;

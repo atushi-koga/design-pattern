@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Iterator;
+namespace Test\Iterator;
 
 use App\Iterator\BookShelf\Book;
 use App\Iterator\BookShelf\BookShelf;

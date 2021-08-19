@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Strategy;
+namespace Test\Strategy;
 
 use App\Strategy\ReadFileStrategy\Item;
 use App\Strategy\ReadFileStrategy\ReadFileContext;

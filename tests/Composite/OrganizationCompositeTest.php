@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Composite;
+namespace Test\Composite;
 
 use App\Composite\OrganizationComposite\Department;
 use App\Composite\OrganizationComposite\Employee;

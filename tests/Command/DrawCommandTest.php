@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Command;
+namespace Test\Command;
 
 use App\Command\DrawCommand\DrawCanvas;
 use App\Command\DrawCommand\DrawCommandInvoker;

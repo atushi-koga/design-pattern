@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\FactoryMethod;
+namespace Test\FactoryMethod;
 
 use App\FactoryMethod\IDCard\IDCardFactory;
 use PHPUnit\Framework\TestCase;

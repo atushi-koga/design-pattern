@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\AbstractFactory;
+namespace Test\AbstractFactory;
 
 use App\AbstractFactory\LinkPageAbstractFactory\Factory\Factory;
 use PHPUnit\Framework\TestCase;

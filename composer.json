@@ -5,7 +5,7 @@
   "autoload": {
     "psr-4": {
       "App\\": "public/",
-      "Test\\": "test/"
+      "Test\\": "tests/"
     }
   },
   "require-dev": {

@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Builder;
+namespace Test\Builder;
 
 use App\Builder\DocumentBuilder\DocumentDirector;
 use App\Builder\DocumentBuilder\HTMLDocumentBuilder;

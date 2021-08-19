@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Adapter;
+namespace Test\Adapter;
 
 use App\Adapter\File\DisplayPlainFile;
 use PHPUnit\Framework\TestCase;

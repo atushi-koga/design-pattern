@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Facade;
+namespace Test\Facade;
 
 use App\Facade\Order\Item;
 use App\Facade\Order\Order;

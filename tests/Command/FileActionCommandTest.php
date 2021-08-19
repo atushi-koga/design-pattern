@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace tests\Command;
+namespace Test\Command;
 
 use App\Command\FileActionCommand\CompressCommand;
 use App\Command\FileActionCommand\CopyCommand;
